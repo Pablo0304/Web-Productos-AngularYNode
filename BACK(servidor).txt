@@ -1,0 +1,20 @@
+GENERAL(index.js):
+Se usa "express".
+Conectamos a la base de datos.
+Se usan "cors".
+Habilitamos el formato de respuestas.
+Habilitamos la ruta válida para hacer peticiones.
+Se puede escuchar el puerto para comprobar que está activo.
+En el archivo "variables.env" está la variable(url) con la que nos conectamos al servidor con "MongoDB Compass".
+
+ROUTES:
+Aquí están las configuraciones de las rutas para cada petición, es decir, lo que tienen que tener y qué método (del archivo ubicado en el controlador) tienen que usar.
+
+MODELS:
+Aquí se especifican los tipos de los atributos de cada objeto, cada cosa que se va a registrar la petición resulte exitosa y cosas como si son requeridos u opcionales.
+
+CONTROLLERS:
+Métodos de cada tipo de petición, se pueden hacer aquí validaciones de permisos o en un archivo del tipo "middleware".
+
+CONFIG:
+Especificaciones para el tipo de conexión a la base de datos.

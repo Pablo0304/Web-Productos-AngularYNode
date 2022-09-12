@@ -1,0 +1,13 @@
+GENERAL:
+El archivo "styles.css" es el que da estilos al fondo general de la web y a cosas generales como los títulos.
+Mediante el archivo de rutas "app-routing.module.ts " accedes a las rutas y das permiso de aparición a los componentes que son por así decirlo distintas pestañas de la web.
+El archivo "app.component.html" solo tiene "<router-outlet></router-outlet>" debido a que solo utiliza rutas.
+
+SERVICIOS:
+El archivo "poducto.service.ts" es el que maneja los métodos de peticiones al back-end así como donde se encuentra la url que se usa en este.
+
+MODELOS:
+El archivo "producto.ts" dice cómo tiene que ser el elemento que guardamos en la base de datos.
+
+COMPONENTES:
+Listar Productos y Crear Productos.
